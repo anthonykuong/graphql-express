@@ -8,15 +8,15 @@ var books = [
     { name: 'M3 Name of the Wind', genre: 'Fantasy', id: '1' },
     { name: 'M3 The Final Empire', genre: 'Fantasy', id: '2' },
     { name: 'M3 The Long Earth', genre: 'Sci-Fi', id: '3' },
-    { name: 'M3 The Small Earth', genre: 'Sci-Fi', id: '4' },
-    { name: 'M3 The Medium Earth', genre: 'Sci-Fi', id: '5' },
+    { name: 'M4 The Long Earth', genre: 'Sci-Fi', id: '4' },
+    { name: 'M3 The Medium Earth', genre: 'Sci-Fi', id: '5'},
 ];
 
 const BookType = new GraphQLObjectType({
     name: 'Book',
     fields: ( ) => ({
         id: { type: GraphQLString },
-        name: { type: GkraphQLString },
+        name: { type: GraphQLString },
         genre: { type: GraphQLString }
     })
 });
