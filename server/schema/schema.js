@@ -5,11 +5,11 @@ const { GraphQLObjectType, GraphQLString, GraphQLSchema } = graphql;
 
 // dummy data
 var books = [
-    { name: 'M3 Name of the Wind', genre: 'Fantasy', id: '1' },
-    { name: 'M3 The Final Empire', genre: 'Fantasy', id: '2' },
-    { name: 'M3 The Long Earth', genre: 'Sci-Fi', id: '3' },
-    { name: 'M4 The Long Earth', genre: 'Sci-Fi', id: '4' },
-    { name: 'M3 The Medium Earth', genre: 'Sci-Fi', id: '5'},
+    { name: 'M6 Name of the Wind', genre: 'Fantasy', id: '1' },
+    { name: 'M6 The Final Empire', genre: 'Fantasy', id: '2' },
+    { name: 'M6 The Long Earth', genre: 'Sci-Fi', id: '3' },
+    { name: 'M6 The Long Earth', genre: 'Sci-Fi', id: '4' },
+    { name: 'M6 The Medium Earth', genre: 'Sci-Fi', id: '5'},
 ];
 
 const BookType = new GraphQLObjectType({
